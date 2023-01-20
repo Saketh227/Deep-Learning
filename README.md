@@ -14,10 +14,11 @@ These operations can be efficiently optimized using a GPU because GPU is built f
 ---
 # Limitations of Machine Learning?
 ```
-    ML models are not capable of doing feature engineering by themselves. 
-    In machine learning, feature engineering is done by humans explicitly but in deep learning, it is done by the model itself without human intervention.
-    Machine learning algorithms cannot solve complex AI problems like Natural Language Processing, Image Recognition, etc.
-   ML models do not perform well with very large datasets.  
+    1.ML models are not capable of doing feature engineering by themselves.  ==> Try to write an explanation?
+        * In machine learning, feature engineering is done by humans explicitly but in deep learning, it is done by the model itself without human intervention.
+        
+    2.Machine learning algorithms cannot solve complex AI problems like Natural Language Processing, Image Recognition, etc.
+    3.ML models do not perform well with very large datasets.  
 ```
 ---
 ---
@@ -30,21 +31,27 @@ These operations can be efficiently optimized using a GPU because GPU is built f
 ```
 
 ```
-The first layer of a neural network is called the input layer and the last layer is known as the output layer. 
-All the other layers between input and output are known as hidden layers. 
-A neural network can have any number of hidden layers. 
-Each layer of the neural network consists of a bunch of neurons. 
-At neurons the actual data processing takes place. 
-The information is transferred from one layer to another layer via weighted channels.
-These channels transform the input data within the hidden layers. 
-The input gets multiplied with the weight value of the channel and then output is passed to the next layer. 
-On getting the information from the previous layer, current layer neurons get activated and start their processing. 
-During this whole process weights of each channel are continuously adjusted in order to give the best results. 
+* The first layer of a neural network is called the input layer and 
+  the last layer is known as the output layer. 
+* All the other layers between input and output are known as hidden layers. 
+* A neural network can have any number of hidden layers.
+ 
+* Each layer of the neural network consists of a bunch of neurons. 
+* At neurons the actual data processing takes place. 
+
+* The information is transferred from one layer to another layer via weighted channels.
+* These channels transform the input data within the hidden layers. 
+* The input gets multiplied with the weight value of the channel and then output is passed to the next layer. 
+* On getting the information from the previous layer, current layer neurons get activated and start their processing. 
+* During this whole process weights of each channel are continuously adjusted in order to give the best results. 
 ```
 
 # What is Deep Learning?
 ```
-    * Deep learning is a branch of machine learning which is completely based on artificial neural networks, as neural network is going to mimic the human brain
+    * Deep learning is a branch of machine learning 
+      where the machine learn in a similar way to that of a human brain. 
+                                    (or)
+      which is completely based on artificial neural networks, as neural network is going to mimic the human brain
 ```
 ![img_3.png](img_3.png)
 
@@ -59,7 +66,7 @@ During this whole process weights of each channel are continuously adjusted in o
     image classification is done using CNN with help of pixels
     input is in the form of video frames or images
     
-    Advanced models cnn RCNN,Detectron,YOLO V6,V8
+    Advanced models of cnn: RCNN,Detectron,YOLO V6,V8
 ```
 
 ### RNN = Recurrent Neural Network
