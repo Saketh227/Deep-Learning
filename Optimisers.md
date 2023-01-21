@@ -4,7 +4,8 @@
     Stochastic Gradient Descent (SGD)
     Mini Batch SGD
     SGD with momentum
-    ADA Grad and RMS prop
+    ADA Grad 
+    ADA DELTA and RMS prop
     ADAM optimizer
 ```
 # Epoch : 
@@ -56,4 +57,32 @@ In an epoch for a given iteration we send batch of records and for each iteratio
 ---
 
 # SGD with Momentum
+![img_36.png](img_36.png)
+![img_37.png](img_37.png)
+```
+We have noise in above optimisers so we try to smoothen the weights to reduce noise.
+
+We use Exponential weight Average 
+```
+![img_38.png](img_38.png)
+```
+We are trying to control a value based on previous value.
+```
+
+# ADA Grad (Adaptive Gradient descent)
+![img_39.png](img_39.png)
+```
+We have a constant learning rate.
+but to make convergence faster we can have dynamic learning rate which is high initially and low later.
+
+Dis Advantage:
+    There is possibility that alpha_t will be high making learning rate approx = 0
+    which may lead to vanishing gradient
+```
+
+# ADA DELTA and RMS prop
+![img_40.png](img_40.png)
+
+# ADAM optimizer
+![img_41.png](img_41.png)
 
