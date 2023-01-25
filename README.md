@@ -1,3 +1,11 @@
+# Topics In Order
+```
+    # Why we need Deep Learning When we have Machine Learning (ML Vs DL)
+    # Activation Functions.md & Vanishing gradient problem
+    # Loss & Activation Function ,Optimizers.
+    
+```
+
 # ML Vs DL
 ![img_4.png](img_4.png)
 ![img_5.png](img_5.png)
@@ -5,10 +13,10 @@
 ![img_7.png](img_7.png)
 ![img_8.png](img_8.png)
 ```
-Deep learning algorithms heavily depend on high-end machines, contrary to traditional machine learning algorithms, which can work on low-end machines. 
-This is because the requirements of deep learning algorithm include GPUs which are an integral part of its working. 
-Deep learning algorithms inherently do a large amount of matrix multiplication operations. 
-These operations can be efficiently optimized using a GPU because GPU is built for this purpose.
+* Deep learning algorithms heavily depend on high-end machines, contrary to traditional machine learning algorithms, which can work on low-end machines. 
+  This is because the requirements of deep learning algorithm include GPUs which are an integral part of its working. 
+* Deep learning algorithms inherently do a large amount of matrix multiplication operations. 
+  These operations can be efficiently optimized using a GPU because GPU is built for this purpose.
 ```
 ---
 ---
@@ -47,6 +55,7 @@ These operations can be efficiently optimized using a GPU because GPU is built f
 ```
 
 # What is Deep Learning?
+**DEF : **
 ```
     * Deep learning is a branch of machine learning 
       where the machine learn in a similar way to that of a human brain. 
@@ -87,7 +96,7 @@ These operations can be efficiently optimized using a GPU because GPU is built f
     * Now the question raised how to store data efficiently? --> this is answered by hadoop and various others
     * Now another question like 'How to use the data to make the product better?' --> Data Science.
     * GPU (hardware requirements) cost was less.
-    * Huge amount of data is generated --> Deep learning models performs well.
+    * Huge amount of data is generated --> Deep learning models performs well with huge data Which is not the .case with Machine Learning.
 ```    
 # Applications
 ```
@@ -104,9 +113,9 @@ medical --> prediction of bone cracks, diseases.
 ```
     input layer
     hidden layer
-    weights
-    Activation function
-    Bias
+    weights ?
+    Activation function?
+    Bias?
     Output layer
 ```
 ![img.png](img.png)
@@ -127,7 +136,7 @@ So this is the reason perceptron is used to solve linearly seperable binary clas
     Backward Propogation
     Loss Function
     Activation Function
-    Optimizers
+    Optimizers??
 ```
 ![img_1.png](img_1.png)
 ![img_2.png](img_2.png)
